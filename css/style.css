@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+#admin-box{
+    
+   width: 30%;
+   margin: 10% auto;
+   padding: 25px;
+   text-align: center;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+#admin-box h1 {
+    text-align: center;
+    line-height: 70px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#admin-box img {
+    display: block;
+    margin: auto;
+    width: 75px;
+}
+input,label {
+    display: block;
+}
+form {
+    margin-top: 25px;
+}
+input {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 15px;
+   
+  }
+ label {
+    line-height: 25px;
+    font-size: 20px;
+    text-transform: capitalize;
+ }
+ input{
+    text-transform: capitalize;
+ }
+ input::placeholder {
+    color: black;
+ }
+ input[type="submit"] {
+    width: 50%;
+    margin: 20px auto;
+    transition: ease-in 0.5s;
+ }
+ input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+ }
+.pg {
+    font-size: 17px;
+    margin: 5px ;
+    line-height: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+.pg a {
+    text-transform: capitalize;
+}
+.pg a:hover {
+    color: blue;
+}
